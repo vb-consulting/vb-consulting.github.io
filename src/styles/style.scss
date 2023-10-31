@@ -1,0 +1,54 @@
+$enable-grid-classes: true;
+$enable-shadows: false;
+
+@import "colors.scss";
+
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./fontello/animation";
+@import "./fontello/fontello";
+
+html {
+    height: 100% !important;
+}
+body {
+    position: relative;
+}
+.background-net {
+    background-image: url(/NET_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.background-pg {
+    background-image: url(/postgresql-512.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.background-cs {
+    background-image: url(/csharp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.background-svelte {
+    background-image: url(/svelte_logo.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.background-blazor {
+    background-image: url(/Blazor.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.background-nuget {
+    background-image: url(/nuget-icon.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.background-github {
+    background-image: url(/github.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
